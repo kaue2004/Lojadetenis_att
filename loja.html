@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja fit</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="icon" type="imagem/png" href="images/Sem Título-1.png"/>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" width="60" height="30" class="d-inline-block align-top" alt="">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+      <style>
+        html, body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: rgb(0, 0, 0);
+    
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+      </style>
+    </head>
+    <body>
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/logo.jpg" alt="" width="800px"></div>
+            <div class="swiper-slide"><img src="./images/logo2.png" alt="" width="800px"></div>
+            <div class="swiper-slide"><img src="./images/logo3.png" alt="" width="800px"></div>
+            <div class="swiper-slide"><img src="./images/logo4.jfif" alt="" width="800px"></div>
+            <div class="swiper-slide"><img src="./images/logo5.png" alt="" width="800px"></div>
+            <div class="swiper-slide"><img src="./images/logo6.png" alt="" width="800px"></div>
+            
+        </div>
+        
+      </br> 
+    </br>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="js/swiper.min.js"></script>
+      
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+       </script>
+      
+     
+      <div class="card-group">
+        <div class="card">
+          <img id="img" data-zoom-image="images/1.png" src="images/1.png" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tênis</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$290,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img id="img2" data-zoom-image="images/2.jpg" src="images/2.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$129,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img id="img3" data-zoom-image="images/3.jpg"  src="images/3.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$120,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img id="img4" data-zoom-image="images/4.jpg"  src="images/4.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="alert alert-danger" role="alert">
+                R$199,99
+              </div>
+            </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img id="img5" data-zoom-image="images/5.jpg"  src="images/5.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$799,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img id="img6" data-zoom-image="images/6.jpg"  src="images/6.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer..</p>
+            <div class="alert alert-danger" role="alert">
+              R$34,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img id="img7" data-zoom-image="images/7.jpg"  src="images/7.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$603,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img id="img8" data-zoom-image="images/8.jfif"  src="images/8.jfif" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="alert alert-danger" role="alert">
+                R$132,99
+              </div>
+            </div>
+      </div>
+
+      <script src="./js/jquery-1.8.3.min.js"></script>
+      <script src="./js/jquery.elevatezoom.js"></script>
+      <script>
+          $('#img').elevateZoom({
+          zoomType: "inner",
+          cursor: "crosshair",
+          zoomWindowFadeIn: 500,
+          zoomWindowFadeOut: 750
+     }); 
+      </script> 
+      <script>
+        $('#img2').elevateZoom({
+        zoomType: "inner",
+        cursor: "crosshair",
+        zoomWindowFadeIn: 500,
+        zoomWindowFadeOut: 750
+   }); 
+    </script> 
+    <script>
+      $('#img3').elevateZoom({
+      zoomType: "inner",
+      cursor: "crosshair",
+      zoomWindowFadeIn: 500,
+      zoomWindowFadeOut: 750
+ }); 
+  </script> 
+  <script>
+    $('#img4').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 500,
+    zoomWindowFadeOut: 750
+}); 
+</script> 
+<script>
+  $('#img5').elevateZoom({
+  zoomType: "inner",
+  cursor: "crosshair",
+  zoomWindowFadeIn: 500,
+  zoomWindowFadeOut: 750
+}); 
+</script> 
+<script>
+  $('#img6').elevateZoom({
+  zoomType: "inner",
+  cursor: "crosshair",
+  zoomWindowFadeIn: 500,
+  zoomWindowFadeOut: 750
+}); 
+</script> 
+<script>
+  $('#img7').elevateZoom({
+  zoomType: "inner",
+  cursor: "crosshair",
+  zoomWindowFadeIn: 500,
+  zoomWindowFadeOut: 750
+}); 
+</script> 
+<script>
+  $('#img8').elevateZoom({
+  zoomType: "inner",
+  cursor: "crosshair",
+  zoomWindowFadeIn: 500,
+  zoomWindowFadeOut: 750
+}); 
+</script> 
+
+</body>
+</html>
